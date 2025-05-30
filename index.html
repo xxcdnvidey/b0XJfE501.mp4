@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video Player with Bottom Banner Ad</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      padding-top: 50px;
+      font-family: Arial, sans-serif;
+    }
+
+    .video-container {
+      position: relative;
+      width: 640px;
+      max-width: 100%;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .banner-ad {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      right: 10px;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      z-index: 10;
+    }
+
+    .banner-ad a {
+      color: #00ffff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .banner-ad a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<div class="video-container">
+  <video controls>
+    <source src="https://cdn.videy.co/b0XJfE501.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="banner-ad">
+    <script type="text/javascript">
+	atOptions = {
+		'key' : '5dba8059d759647bd1c789966dc3bef2',
+		'format' : 'iframe',
+		'height' : 50,
+		'width' : 320,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//crushingmafia.com/5dba8059d759647bd1c789966dc3bef2/invoke.js"></script>
+  </div>
+</div>
+
+</body>
+</html>
